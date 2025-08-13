@@ -37,12 +37,12 @@ ZenStudent is a **web-based student dashboard** designed to help students track 
 ---
 
 ## **Folder Structure**
-
+```
 ZenStudent/
-│
 ├── index.html 
 ├── style.css 
 ├── script.js 
 ├── logo.png 
 ├── profile-icon.png 
 └── README.md 
+```
