@@ -472,6 +472,12 @@ app.delete('/api/budgets/:id', authenticateToken, async (req, res) => {
 // ============= START SERVER =============
 
 const PORT = process.env.PORT || 5000;
+
+// Root route to test Render deployment
+app.get("/", (req, res) => {
+  res.send("✅ ZenStudent Backend is running successfully!");
+});
+
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
   console.log(`📡 API available at http://localhost:${PORT}/api`);
